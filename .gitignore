@@ -1,0 +1,32 @@
+# Big binary artefacts
+patches_*.npy
+patch_norm.npy
+*.npy
+
+# Raw competition data — must NOT be redistributed; download from Kaggle
+data/raw/
+data/features/
+
+# Trained-model artefacts and logs
+models/
+logs/
+
+# Submission CSVs (predictions on the held-out test set)
+submissions/
+
+# Local raster sources
+MBES/
+
+# Archives
+*.zip
+
+# Python venvs / cache
+venv/
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
